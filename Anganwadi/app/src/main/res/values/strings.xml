@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Anganwadi</string>
+    <string name="anganwadi">Anganwadi</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">login</string>
+    <string name="registration_heading">REGISTRATION</string>
+    <string name="login_heading">LOG IN</string>
+    <string name="register_heading">REGISTRATION</string>
+    <string name="dash">-</string>
+    <string name="welcome_to_childopedia">Welcome to Childopedia</string>
+    <string name="splashscreen_text">Apke Bachcho Ki Anganwadi</string>
+
+    //Google Maps Key
+
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="childTips">
+
+        <item>Boosting Your Child Self-Esteem</item>
+        <item>Catch Kids Being Good</item>
+        <item>Set Limits and Be Consistent With Your Discipline</item>
+        <item>Make Time for Your Kids</item>
+        <item>Make Communication a Priority</item>
+        <item>Be Flexible and Willing to Adjust Your Parenting Style</item>
+        <item>Be a Good Role Model</item>
+        <item>Show That Your Love Is Unconditional</item>
+        <item>Know Your Own Needs and Limitations as a Parent</item>
+        <item>Give your toddler choices to teach them to make decisions</item>
+        <item>Pay attention at any change in eating habits in newborns</item>
+    </string-array>
+</resources>

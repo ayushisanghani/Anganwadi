@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    >
+
+    <TextView
+        android:id="@+id/headingAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="ADD STUDENT"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/CNametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/headingAddStudent"
+        android:hint="Name"
+        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+        style="@style/LoginTextInputLayoutStyle"
+        app:startIconDrawable="@drawable/kid">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Agetv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/CNametv"
+        android:hint="Age"
+        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+        style="@style/LoginTextInputLayoutStyle"
+        app:startIconDrawable="@drawable/age">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Fathernametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/Emailtv"
+        android:hint="Father Name"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        style="@style/LoginTextInputLayoutStyle"
+        app:startIconDrawable="@drawable/father">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtFathername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Mothernametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/Fathernametv"
+        android:hint="Mother Name"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        style="@style/LoginTextInputLayoutStyle"
+        app:startIconDrawable="@drawable/mom">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtMothername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/CPhonetv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/Mothernametv"
+        android:hint="Phone"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        style="@style/LoginTextInputLayoutStyle"
+        app:startIconDrawable="@drawable/ic_baseline_phone_android_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCPhone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Citytv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/CPhonetv"
+        android:hint="Enter your city"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        style="@style/LoginTextInputLayoutStyle"
+        app:startIconDrawable="@drawable/ic_baseline_location_city_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCity1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/radiotv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/Citytv1"
+        android:gravity="center"
+        android:text="Select Your Gender"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Male"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white" />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>
